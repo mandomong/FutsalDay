@@ -1,0 +1,84 @@
+@font-face { font-family: "bmd"; src: url(../font/BMDOHYEON_ttf.ttf); }
+
+/* font */
+.font_bmd{
+  font-family: "bmd";
+}
+
+#title {
+  text-align: center;
+}
+
+.fs15 { font-size: 15pt; }
+.fs25 { font-size: 25pt; }
+
+/* body */
+body {
+  max-width: 800px;
+  /*background-color:#FCB;*/
+  background-color: #c6ebc6;
+  margin: 0 auto;
+  margin-top: 20px;
+  /*margin-left: 20px;
+  margin-right: 20px;*/
+}
+
+
+/* nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* main image */
+#img_frame {
+  position: relative;
+}
+
+.main_img {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+
+  background-image: url("/images/CampNou.jpg");
+  background-size: 100% 100%;
+
+}
+/* notice & event*/
+#notice {
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  background-color: #333;
+  text-align: center;
+}
+
+/* footer */
+.underDiv {
+  top: 410px;
+  position: relative;
+  margin-bottom: 10px;
+}
